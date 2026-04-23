@@ -41,8 +41,30 @@
         False and False = False
 
     ## Aula 14 - O tipo string
-        
+        em python, um dado é considerado do tipo strig sempre que tiver:
+        - entre aspas simples (mais comum)
+        - entre aspas duplas
+        - entre aspas simples triplas
+        - entre aspas duplas triplas
+        nome = 'Carolina \nAbreu'
+        print {nome} 
+        Carolina
+        Abreu (o \n quebra linha)
+        -slice de tring
+        nome = 'Geek University'
+        print{nome[0:4]} imprime Geek
+        print{nome[5:15]} imprime University
+        print{nome.split()[0]} imprime Geek
+        print{nome.split()[1]} imprime University
+        print {nome[::-1]} imprime Geek University invertido (ytisrevinU keeG)
+        print{nome.replace['G','P']} imprime Peek University
 
     ## Aula 15 - Escopo de variáveis
+        - variáveis globais: são reconhecidas, ou seia, seu escopo compreende, todo o programa
+        - variáveis locais: são reconhecidas apenas no bloco onde foram declaradas, ou seja, seu escopo está limitado ao bloco onde foi declarada
+        - para declarar variáveis em python fazemos:
+        nome_da_variável = valor_da_variável
+            
+
     ## Aula 16 - Exercícios
     ## Aula 17 - Recapitulando
