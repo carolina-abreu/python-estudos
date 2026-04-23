@@ -64,7 +64,20 @@
         - variáveis locais: são reconhecidas apenas no bloco onde foram declaradas, ou seja, seu escopo está limitado ao bloco onde foi declarada
         - para declarar variáveis em python fazemos:
         nome_da_variável = valor_da_variável
-            
+        - python é uma linguagem de tipagem dinâmica. Isso significa que ao declararmos uma variável, nós não colocamos o tipo de dado dela. Esse tipo é inferido ao atribuirmos valor à mesma.
+        exemplo em c:
+        int numero = 42;
+        exemplo em java:
+        int numero = 42;
+        - exemplo de variável global
+        numero = 42
+        print{numero}
+        - exemplo de variável local
+        if numero > 10
+            novo = numero +10
+            print{novo}
+        print{novo} nesse caso novo só imprime dentro do if, escopo local
 
     ## Aula 16 - Exercícios
+    
     ## Aula 17 - Recapitulando
