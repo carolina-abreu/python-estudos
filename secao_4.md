@@ -16,6 +16,11 @@
             print('Maior de idade.')
         
     ## Aula 20 - And, or, not, is
+        - operadores unários (depende de um valor): not
+        - operadores binários: and, or, is
+        - para o and, ambos os valores precisam ser True
+        - para o or, um ou outro valor precisa ser True
+        - para o not, o valor do booleano é invertido, ou seja, se for True, vira False, se for False, vira True
 
     ## Aula 21 - Exercícios
 
